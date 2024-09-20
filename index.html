@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matheus</title>
+    <meta name="author" content="Matheus A. Nobrega">
+    <meta name="description" content="Home page of the principal page for this 7 weeks.">
+    <link rel="icon" href="favicon.ico">
+    <title>WDD 231: Web Frontend Development I - Matheus A. Nobrega</title>
+    <link href="styles/base.css" type="text/css" rel="stylesheet">
+    <script src="scripts/base.js" defer></script>
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="WDD 231: Web Frontend Development I - Matheus A. Nobrega"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https:/Teteu007.github.io/wdd231/images/Picture1.webp"/>
+    <meta property="og:url" content="https://Teteu007.github.io/wdd231/#"/>
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <div id="photo">
+            <img id="me-photo" src="images/Picture1.webp" width="150" height="160" loading="lazy" alt="Matheus A. Nobrega">
+        </div>
+        <h1>Matheus A. Nobrega</h1>
+    </header>
+    <button id="menu" name="menu" title="hamburgerMenu"></button>
+    <nav id="navMenu">
+        <ul>
+            <li><a href="#" id="refresh" class="active">Home</a></li>
+            <li><a href='#'>Chamber</a></li>
+            <li><a href="https://github.com/Teteu007/wdd231" target="_blank">Github Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/matheus-da-nobrega/"
+                    target="_blank">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="course-work">
+            <h2>Course Work</h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section id="country">
+            <h2>Sao Paulo, Brazil</h2>
+            <figure id="Campinas-container">
+                <picture id="Campinas-img">
+                    <source id="mobile-Campinas" srcset="images/Campinas-mobile.webp" media="(max-width: 699px)">
+                    <img src="images/Campinas.webp" alt="Campinas" width="300" height="300" loading="lazy">
+                </picture>
+                <figcaption>Campinas, Sao Paulo</figcaption>
+            </figure>
+        </section>
+        <section id="certificate-content">
+            <h2>Web and Computer Programer Certificate</h2>
+            <div id="buttons-filter">
+                <button name="all-courses" class="general-button" id="all-courses" type="button">All</button>
+                <button name="cse" class="general-button" id="cse" type="button">CSE</button>
+                <button name="wdd" class="general-button" id="wdd" type="button">WDD</button>
+            </div>
+            <div class="container-courses">
+                <!--Here we are going to use Javascript-->
+            </div>
+        </section>
+        <dialog id="course-details">
+
+        </dialog>
+    </main>
+    <footer>
+        <p>
+            <span>&copy;</span>
+            <span id="currentyear"></span>
+            Matheus A. Nobrega
+            Brazil
+        </p>
+        <p id="modified"></p>
+        <hr>
+        <img src="images/flag.webp" width="50" height="35" loading="lazy" alt="BrazilFlag">
+    </footer>
 </body>
+
 </html>
