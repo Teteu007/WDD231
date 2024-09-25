@@ -47,11 +47,11 @@
             "type": "Software Development & Business Services"
         },
         {
-            "name": "Functional Marriages",
-            "address": "First Avenue, central park House 3th.P",
-            "phone_number": 50258555554,
-            "website_url": "https://eduardorellana.github.io/wdd131/project/#",
-            "image": "images/family-services.webp",
+            "name": "Sexteto produções",
+            "address": "Campinas /SP",
+            "phone_number": 19981967037,
+            "website_url": "https://sexteto.com.br/",
+            "image": "images/logos/sp.webp",
             "membership_level": 2,
             "type": "Family Services"
         },
