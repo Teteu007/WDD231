@@ -1,8 +1,8 @@
 :root {
-    --primaryColor: #63b2f7;
+    --primaryColor: #24244c;
     --secondaryColor: #24244c;
     --thirdColor: #8971eb;
-    --backgroundColor: #24244c;
+    --backgroundColor: #63b2f7;
     --textColor: #FFFF;
     --primaryFont: "Ubuntu", sans-serif;
     --primaryFontWeight: 400;
@@ -12,7 +12,7 @@
 
 * {
     font-family: var(--primaryFont);
-    color: var(--textColor);
+    color: #000000;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
