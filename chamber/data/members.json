@@ -2,11 +2,11 @@
     "directory": [
 
         {
-            "name": "Mcdonald's",
-            "address": "Street one, Av. P",
-            "phone_number": 50223606363,
-            "website_url": "https://mcdonalds.com.gt/",
-            "image": "images/mc.webp",
+            "name": "Camarada Camarão",
+            "address": "Av. Dr. Jesuíno Marcondes Machado, 2574 - Chácara da Barra, Campinas - SP, 13090-723, Brasil",
+            "phone_number": 551932917757,
+            "website_url": "https://linklist.bio/CamaradaCamarao?fbclid=PAZXh0bgNhZW0CMTEAAaaK7YVQmCyyEY3XFPeoy3DYF1egQUwB4m9W0u-QR_CMhvkTzoZEgid0dTI_aem_eNgtJKUT9dvPYrAS3hLlVw",
+            "image": "images/logos/cc.webp",
             "membership_level": 3,
             "type": "food"
         },
