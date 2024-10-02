@@ -13,17 +13,17 @@ principalDynamic.setHambutton();
 
 
 //Three Business
-const data = 'https://raw.githubusercontent.com/EduardOrellana/wdd231/main/chamber/data/members.json';
+const data = 'https://raw.githubusercontent.com/Teteu007/wdd231/main/chamber/data/members.json';
 
 //API Weather----------------------------------------------------------------------------------------------
 const weatherContainer = document.querySelector('#weather-list');
 const placeForecast = document.querySelector('#weather-forecast');
 const weatherIcon = document.querySelector('#icon-weather');
 
-// 14.529898598648922, -90.59526334935519
+// -22.91005987296208, -47.070659481904755
 
-let lat = 14.5269;
-let lon = -90.5875;
+let lat = -22.9100;
+let lon = -47.0706;
 let apiKey = '8aa0b13698894c5f56ccba0bd220bcab';
 
 const url = `//api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
@@ -122,7 +122,7 @@ function displayForecastWeather(data) {
 
 let converterTem = (value) => {
     let result = (value - 273.15) * 9/5 + 32;
-    return `${Math.round(result)}  ℉`;
+    return `${Math.round(result)}  °F`;
 }
 
 let selectDay = (value) => {
