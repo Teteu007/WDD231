@@ -20,7 +20,7 @@ body {
     font-size: 18px;
     text-align: center;
     background-color: var(--background-color);
-    color: var(--background-color);
+    color: #fff;
     font-family: var(--paragraph-font);
 }
 
@@ -85,7 +85,7 @@ p {
 }
 
 .primary {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .secondary {
@@ -93,11 +93,11 @@ p {
 }
 
 .accent1 {
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
 }
 
 .accent2 {
-    background-color: var(--secondary-color);
+    background-color: var(--contrast-color);
 }
 
 p.colored {
