@@ -33,7 +33,6 @@ header {
     background-color: var(--backgroundColor);
     display: block;
     width: 100%;
-    
 }
 
 .logo-commerce {
@@ -51,7 +50,7 @@ header {
     position: absolute;
 }
 
-/*Ham Button*/
+/* Ham Button */
 #menu {
     font-size: 2.5rem;
     border: 0;
@@ -102,8 +101,7 @@ header {
     color: var(--primaryColor);
 }
 
-/*Footer*/
-
+/* Footer */
 footer {
     background-color: var(--backgroundColor);
     font-size: 60%;
@@ -129,17 +127,14 @@ footer {
     margin-top: 20px;
 }
 
-/*Main Design*/
-
+/* Main Design */
 @keyframes animationMainPhoto {
     0% {
         transform: scale(1);
     }
-
     50% {
         transform: scale(1.03);
     }
-
     100% {
         transform: scale(1);
     }
@@ -149,11 +144,9 @@ footer {
     0% {
         transform: translateX(-500px);
     }
-
-    50%{
+    50% {
         transform: translateX(500px);
     }
-
     100% {
         transform: translateX(-500px);
     }
@@ -163,7 +156,6 @@ footer {
     0% {
         transform: translateX(-300px);
     }
-
     100% {
         transform: translateX(300px);
     }
@@ -181,7 +173,8 @@ main {
     font-size: 110%;
 }
 
-main h2, main h3 {
+main h2,
+main h3 {
     font-weight: 900;
     font-size: 150%;
     padding: 1rem 0;
@@ -198,8 +191,9 @@ main h2, main h3 {
     animation: animationMainPhoto 2s ease-in-out infinite;
 }
 
-#calendar iframe{
+.calendar-iframe {
     width: 100%;
+    height: 600px;
     padding: 5px;
     margin: 1rem auto;
     border: 10px solid var(--thirdColor);
@@ -208,7 +202,7 @@ main h2, main h3 {
 hr {
     width: 40%;
     margin: 1rem auto;
-    animation: barAnimation 5s infinite
+    animation: barAnimation 5s infinite;
 }
 
 .collage img {
@@ -218,7 +212,7 @@ hr {
     box-shadow: 0 0 5px var(--textColor);
 }
 
-.fig-images > figcaption{
+.fig-images>figcaption {
     padding: 1rem;
 }
 
@@ -228,21 +222,18 @@ hr {
     box-shadow: 0 0 5px var(--textColor);
 }
 
-
-/*Larges Views*/
+/* Larges Views */
 @media screen and (min-width: 821px) {
-
     body {
         max-width: 1500px;
         margin: 0 auto;
-
     }
+
     header {
         display: grid;
         grid-template-columns: 20% 25% 55%;
         align-items: center;
         gap: 10px;
-        /* overflow-x: hidden; */
         color: var(--textColor);
     }
 
@@ -265,7 +256,6 @@ hr {
 
     #navMenu {
         font-size: 100%;
-        /* grid-column: 3 / 4; */
         max-width: 800px;
     }
 
@@ -286,7 +276,7 @@ hr {
 
     #navMenu ul li a {
         display: block;
-        text-align: center;     
+        text-align: center;
         text-decoration: none;
     }
 
@@ -299,9 +289,7 @@ hr {
         color: var(--secondaryColor);
     }
 
-
-    /*Footer*/
-
+    /* Footer */
     footer {
         background-color: var(--backgroundColor);
         font-size: 80%;
@@ -310,27 +298,26 @@ hr {
         align-items: center;
         justify-content: space-around;
     }
-    
+
     #social-media {
         margin: 2rem 0;
         text-align: center;
     }
-    
+
     .social-medialogos {
         width: 50px;
         margin: 0;
     }
-    
+
     #footer-info {
         margin-bottom: 0;
     }
-    
+
     #information {
         margin-top: 0;
     }
-    
-    /*Main*/
 
+    /* Main */
     #container {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -347,10 +334,11 @@ hr {
     }
 
     #founder figure img {
-        box-shadow: 0 0 100px yellow;
+        box-shadow: 0 0 100px #8971eb;
     }
 
-    main h2, main h3{
+    main h2,
+    main h3 {
         margin: 1rem 1rem;
     }
 
