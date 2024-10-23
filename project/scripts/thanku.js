@@ -77,7 +77,7 @@ container.innerHTML = `
         <li>Last Name: ${show('last')}</li>
         <li>Number: ${show('phone')}</li>
         <li>Email: ${email('email')}</li>
-        <li>You selected the car: ${show('cars')}</li>
+        <li>You selected the shoes: ${show('shoes')}</li>
     </ul>
     <br>
     <br>

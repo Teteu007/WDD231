@@ -8,13 +8,13 @@ principalDynamic.refreshPage();
 principalDynamic.setHambutton();
 
 //----------------------------------------------------------
-const url_cars = generalData.getJSON_CARS();
-const ActionAPI = new DisplayFetch(url_cars);
+const url_shoes = generalData.getJSON_CARS();
+const ActionAPI = new DisplayFetch(url_shoes);
 const data = await ActionAPI.getAPIFetch();
-const containerSelect = document.querySelector('#cars-list'); //Container
+const containerSelect = document.querySelector('#shoes-list'); //Container
 const _displayer = new DisplayItems(data, containerSelect);
 
-const listCars = _displayer.get_names_cars();
+const listCars = _displayer.get_names_shoes();
 
 console.log(listCars);
 

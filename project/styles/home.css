@@ -14,7 +14,7 @@ header {
     position: inherit;
 }
 
-@keyframes car-icon {
+@keyframes shoes-icon {
     from {
         left: 100%;
     }
@@ -29,15 +29,15 @@ main {
     text-align: center;
 }
 
-.icon-car {
+.icon-shoes {
     display: none;
 }
 
-#car1 {
+#shoes1 {
     display: none;
 }
 
-#car2 {
+#shoes2 {
     display: none;
 }
 
@@ -51,7 +51,7 @@ main {
     border: 5px solid black;
 }
 
-.cars-container {
+.shoes-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -63,14 +63,14 @@ h2 {
     text-align: center;
 }
 
-.cars-container > img {
+.shoes-container > img {
     width: 50%;
     margin: 0 auto;
     border-radius: 15px;
     transition: all 3s;
 }
 
-.cars-container > img:hover {
+.shoes-container > img:hover {
     cursor: pointer;
     transform: scale(1.2);
     box-shadow: 0 0 5px var(--secondColor);
@@ -109,33 +109,33 @@ h2 {
 
 @media screen and (min-width: 820px){
 
-    .icon-car {
+    .icon-shoes {
         position: relative;
         display: block;
     }
     
-    #car1 {
+    #shoes1 {
         position: absolute;
-        animation: car-icon 7s linear infinite;
+        animation: shoes-icon 7s linear infinite;
         background: none;
         display: inline;
     }
     
-    #car2 {
+    #shoes2 {
         position: absolute;
-        animation: car-icon 5s linear infinite 1s;
+        animation: shoes-icon 5s linear infinite 1s;
         background: none;
         display: inline;
     }
 
-    .cars-container {
+    .shoes-container {
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
         gap: 0;
     }
 
-    .cars-container img {
+    .shoes-container img {
         width: 300px;
     }
 

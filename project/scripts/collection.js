@@ -9,9 +9,9 @@ principalDynamic.setHambutton();
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------
 
-const url_cars = generalData.getJSON_CARS();
+const url_shoes = generalData.getJSON_CARS();
 
-const ActionAPI = new DisplayFetch(url_cars);
+const ActionAPI = new DisplayFetch(url_shoes);
 
 const containerCars = document.querySelector('#container-collection');
 const _dialog = document.querySelector('dialog');

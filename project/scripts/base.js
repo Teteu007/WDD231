@@ -65,7 +65,7 @@ class DisplayFetch {
 
 const generalData = {
 
-    json_cars : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/data/shoes-collection.json",
+    json_shoes : "https://raw.githubusercontent.com/teteu007/wdd231/main/project/data/shoes-collection.json",
 
     api_weather(lat, lon, apiKey) {
         const baseURL = `//api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
@@ -78,7 +78,7 @@ const generalData = {
     },
 
     getJSON_CARS() {
-        return this.json_cars;
+        return this.json_shoes;
     }
 
 }
@@ -92,7 +92,7 @@ class DisplayItems {
     }
 
     displayItems_Image_Title(object) {
-        //This Method will display the items for the cars
+        //This Method will display the items for the shoes
         object = this.item;
 
         object.forEach(i => {
@@ -114,7 +114,7 @@ class DisplayItems {
     }
 
     displayAll(object = this.item) {
-        //This Method will display the items for the cars
+        //This Method will display the items for the shoes
         // object = this.item;
 
         object.forEach(i => {
@@ -157,7 +157,7 @@ class DisplayItems {
         })
     }
 
-    display_three_random_cars(object){
+    display_three_random_shoes(object){
 
         object = this.item;
 
@@ -268,14 +268,14 @@ class DisplayItems {
         return trucks;
     }
 
-    get_names_cars(object = this.item){
-        let cars = [];
+    get_names_shoes(object = this.item){
+        let shoes = [];
 
         object.forEach(i => {
-            cars.push(i.name);
+            shoes.push(i.name);
         })
 
-        return cars;
+        return shoes;
     }
 }
 

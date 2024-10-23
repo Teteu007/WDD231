@@ -8,17 +8,17 @@ principalDynamic.refreshPage();
 principalDynamic.setHambutton();
 
 //Main Script//////////////////////////////////////////////////////
-const url_cars = generalData.getJSON_CARS();
+const url_shoes = generalData.getJSON_CARS();
 
-const ActionAPI = new DisplayFetch(url_cars);
-const containerCars = document.querySelector(".cars-container");
+const ActionAPI = new DisplayFetch(url_shoes);
+const containerCars = document.querySelector(".shoes-container");
 const _dialog = document.getElementById('_dialog');
 
 const dataC = await ActionAPI.getAPIFetch();
 
 
-const _cars = new DisplayItems(dataC, containerCars, _dialog);
-_cars.display_three_random_cars();
+const _shoes = new DisplayItems(dataC, containerCars, _dialog);
+_shoes.display_three_random_shoes();
 
 const totalCars = dataC.length;
 
