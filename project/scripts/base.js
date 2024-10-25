@@ -243,10 +243,6 @@ class DisplayItems {
             <p><strong>Brand: </strong> ${item.brand}</p>
             <p><strong>Category: </strong> ${item.category}</p>
             <p><strong>Year: </strong> ${item.year}</p>
-            <p><strong>Engine: </strong> ${item.engine}</p>
-            <p><strong>Cylinder: </strong> ${item.cylinder}</p>
-            <p><strong>Transmission: </strong> ${item.transmission}</p>
-            <p><strong>Fuel: </strong> ${item.fuel}</p>
             <p><strong>Price: </strong> ${item.price}</p>
             <p><strong>Color: </strong> ${item.color}</p>
             `;
@@ -262,10 +258,10 @@ class DisplayItems {
         }
     }
 
-    get_data_trucks(){
-        //Methods to filter trucks
-        const trucks = this.item.filter(truck => truck.category === "Truck");
-        return trucks;
+    get_data_boots(){
+        //Methods to filter boots
+        const boots = this.item.filter(boot => boot.category === "boots");
+        return boots;
     }
 
     get_names_shoes(object = this.item){

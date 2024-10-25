@@ -25,19 +25,19 @@ const _displayer = new DisplayItems(data, containerCars, _dialog);
 _displayer.displayAll();
 
 //Buttons
-const _truckButton = document.querySelector('#truck');
-const _trucks = _displayer.get_data_trucks();
+const _bootButton = document.querySelector('#boot');
+const _boots = _displayer.get_data_boots();
 const _all = document.querySelector('#all');
 const _gallery = document.querySelector('#grid');
 const _list = document.querySelector('#list');
 
-console.log(_trucks);
+console.log(_boots);
 
-_truckButton.addEventListener('click', () => {
+_bootButton.addEventListener('click', () => {
     containerCars.innerHTML = '';
     containerCars.classList.remove('list');
     containerCars.classList.add('grid');
-    _displayer.displayAll(_trucks);
+    _displayer.displayAll(_boots);
 })
 
 _all.addEventListener('click', () => {

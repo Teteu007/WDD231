@@ -28,9 +28,9 @@
             "price": "25$"
         },
         {
-            "name": "Knee-High Boot",
+            "name": "Knee-High boot",
             "brand": "Vizzano",
-            "category": "Boot",
+            "category": "boot",
             "year": 2023,
             "color": "black",
             "ilustration": "https://raw.githubusercontent.com/teteu007/wdd231/main/project/images/bota%20cano%20alto%20black.webp",
@@ -73,9 +73,9 @@
             "price": "28$"
         },
         {
-            "name": "Chunky Boot",
+            "name": "Chunky boot",
             "brand": "Dijean",
-            "category": "Boot",
+            "category": "boot",
             "year": 2024,
             "color": "gray",
             "ilustration": "https://raw.githubusercontent.com/teteu007/wdd231/main/project/images/bota%20tratorada%20gray.webp",

@@ -22,6 +22,6 @@ _shoes.display_three_random_shoes();
 
 const totalCars = dataC.length;
 
-console.log("Esta es mi data");
+console.log("essa é a minha data");
 console.log(totalCars);
 console.log(dataC);
