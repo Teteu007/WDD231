@@ -14,10 +14,6 @@ header {
     position: inherit;
 }
 
-    header h1 {
-        visibility: invisible;
-    }
-
 @keyframes shoes-icon {
     from {
         left: 100%;
@@ -119,10 +115,7 @@ h2 {
         display: block;
     }
 
-    header h1 {
-        visibility: visible;
-    }
-    
+
     #shoes1 {
         position: absolute;
         animation: shoes-icon 7s linear infinite;
