@@ -202,7 +202,7 @@ dialog * {
     }
     
     header h1 {
-        visibility: invisible;
+        visibility: visible;
     }
 
     #icon-container {
