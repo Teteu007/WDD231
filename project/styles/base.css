@@ -31,6 +31,10 @@ header {
     display: block;
 }
 
+header h1 {
+    visibility: invisible;
+}
+
 .active::after {
     content: "🔔";
 }
@@ -195,6 +199,10 @@ dialog * {
         align-items: center;
         position: sticky;
         top: 0;
+    }
+    
+    header h1 {
+        visibility: invisible;
     }
 
     #icon-container {
